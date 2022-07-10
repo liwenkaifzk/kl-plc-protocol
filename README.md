@@ -1,14 +1,14 @@
-# node-mc_protocol
-Node.js McProtocol Library
+# kl-plc-protocol
+Node.js Plc Protocol Library
 
 ## Install & Usage
 
 ```
-npm install node-mc_protocol --save
+npm install kl-plc-protocol --save
 ```
 
 ```
-let McProtocolClient = require('node-mc_protocol');
+let McProtocolClient = require('kl-plc-protocol');
 
 let ipAddr  = '192.168.1.210'; // <PLC IPADDRESS>
 let port    = '3000';          // <PLC PORT>
